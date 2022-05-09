@@ -1,0 +1,38 @@
+$pink: hsl(322, 100%, 66%);
+$pale-cyan: hsl(193, 100%, 96%);
+$dark-cyan: hsl(192, 100%, 9%);
+$grayish-blue: hsl(208, 11%, 55%);
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  .container {
+  }
+}
+
+footer {
+  background-color: $dark-cyan;
+  * {
+    color: #f3ffff;
+  }
+  .container {
+  }
+}

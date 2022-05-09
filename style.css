@@ -1,0 +1,28 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: Poppins, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+}
+footer * {
+  color: #f3ffff;
+}
+
+/*# sourceMappingURL=style.css.map */
