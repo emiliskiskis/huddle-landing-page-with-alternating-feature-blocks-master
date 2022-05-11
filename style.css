@@ -1,5 +1,6 @@
 html,
 body {
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -8,7 +9,21 @@ h3 {
   font-family: Poppins, sans-serif;
 }
 
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
 header {
+  background: url("images/bg-hero-desktop.svg");
+  background-size: contain;
+  background-color: hsl(193deg, 100%, 96%);
+  padding: 32px 60px;
+}
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +33,45 @@ a {
   text-decoration: none;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+.hero {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4em;
+}
+.hero .hero-text {
+  flex: 2;
+}
+.hero .hero-image {
+  flex: 3;
+}
+.hero .hero-image img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+main .container {
+  max-width: 1200px;
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+main .container .item {
+  display: flex;
+  padding: 20px;
+  padding-left: 100px;
+}
+
 footer {
+  padding: 16px;
   background-color: hsl(192deg, 100%, 9%);
 }
 footer * {
